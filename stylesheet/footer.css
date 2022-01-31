@@ -1,0 +1,39 @@
+h1{
+    color: white;
+    text-align: center;
+}
+.hblue{
+    color: rgb(3, 117, 183);
+    text-align: center;
+}
+#imgfooter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*border-radius: 50%;*/
+    border: 2px solid black;
+    border-radius: 20%;
+}
+p{
+    text-align: center;
+}
+
+#social{
+    margin-left: 2%;
+}
+.midia {
+    text-align: center;
+}
+
+.footer{
+    box-sizing: border-box;
+    background-color: rgb(3, 117, 183);
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+
+#credits{
+    background-color: white;
+    margin: 10px 0 0 0;
+}

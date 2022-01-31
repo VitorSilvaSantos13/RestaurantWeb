@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Restaurante Estrela do Mar">
+        <meta name="keywords" content="Restaurante Estrela do Mar, Estrella do Mar, Restaurante do Mar">
+        <meta name="author" content="VS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" type="text/css" href="stylesheet/index.css"/>
+        <link rel="stylesheet" type="text/css" href="stylesheet/header.css"/>
+        <link rel="stylesheet" type="text/css" href="stylesheet/footer.css"/>
+
+
+
+
+        <title>Restaurante Estrela do Mar</title>
+
+
+        <style>
+          div.article{
+            background-color: black;
+            margin: auto;
+            width: 100%;
+            height: auto;
+          }
+          div.gallery {
+              border: 1px solid #ccc;
+          }
+  
+          div.gallery:hover {
+              border: 1px solid rgb(3, 117, 183);
+          }
+  
+          div.gallery img {
+              width: 100%;
+              height: auto;
+          }
+  
+          div.desc {
+              padding: 15px;
+              text-align: center;
+          }
+  
+          * {
+              box-sizing: border-box;
+          }
+  
+          .responsive {
+              padding: 0 6px;
+              float: left;
+              width: 24.99999%;
+          }
+  
+          @media only screen and (max-width: 700px) {
+              .responsive {
+                  width: 49.99999%;
+                  margin: 6px 0;
+              }
+          }
+  
+          @media only screen and (max-width: 500px) {
+              .responsive {
+                  width: 100%;
+              }
+          }
+  
+          .clearfix:after {
+              content: "";
+              display: table;
+              clear: both;
+          }
+      </style>
+
+
+        <!--<style>
+            ul {
+              list-style-type: none;
+              margin-top: 5%;
+              margin-left: 25%;
+              margin-right: 10%;
+              padding: 0%;
+              overflow: hidden;
+              /*background-color: pink ;
+
+              border: solid 2px red ;*/
+
+              /*padding-left: 0;*/
+
+              /*margin-top: 5%;*/
+
+
+            }
+            
+            li {
+              float: left;
+              margin-left: 15%;
+              
+              margin-top: 0%;
+              
+              border-radius: 50%;
+              border-bottom: solid 5px rgb(3, 117, 183) ;
+
+            }
+
+            li a{
+              border-radius: 50%;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+              font-size: larger;                        
+            }
+            
+            li a, .dropbtn {
+              display: inline-block;
+              color: rgb(3, 117, 183) ;
+              text-align: center;
+              padding: 30px 30px;
+              text-decoration: none;
+
+              
+            }
+          
+
+            li a:hover, .dropdown:hover .dropbtn {
+              background-color: dodgerblue;
+              color: white;
+              font-size: 1.5em;
+            }
+            
+            li.dropdown {
+              display: inline-block;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: white/*#f9f9f9*/;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content a {
+              color: rgb(3, 117, 183);
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+
+              border-radius: 0%;
+              /*border: solid 2px red ;*/
+            }
+            
+
+            .dropdown-content a:hover {background-color: dodgerblue /*#f1f1f1*/;}
+            
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+        </style>-->
+
+
+
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <style>
+              .mySlides {display:none}
+              .w3-left, .w3-right, .w3-badge {cursor:pointer}
+              .w3-badge {height:13px;width:13px;padding:0}
+            </style>
+
+
+    </head>
+
+    <body>
+      <div class="header">
+        <a href="index.html"><img id="logo" src="img/Logo png[460].png"/></a>
+      </div>
+      
+    
+    
+      <ul class="topnav">
+        <li><a href="#home">EMPRESA</a></li>
+        <li class="dropdown">
+            <a href="cardapio.html" class="dropbtn">CARDÁPIO</a>
+                <div class="dropdown-content">
+                    <a href="lanches&salgados.html">LANCHES & SALGADOS</a>
+                    <a href="saladas.html">SALADAS</a>
+                    <a href="pratos.html">PRATOS</a>
+                    <a href="porcoes.html">PORÇÕES</a>
+                    <a href="bebidas.html">BEBIDAS</a>
+                    <a href="sobremesas.html">SOBREMESAS</a>
+                </div>
+        </li>
+        <li><a href="contato.html">CONTATO</a></li>
+        <li class="teste"><a href="https://www.ifood.com.br/delivery/maringa-pr/restaurante-estrela-do-mar-vila-santa-izabel" style="float:right">IFOOD</a></li>
+      </ul>
+
+      <br>
+      
+
+      <!--
+      <div class="w3-container">
+        <h2>Slideshow Indicators</h2>
+        <p>An example of using buttons to indicate how many slides there are in the slideshow, and which slide the user is currently viewing.</p>
+      </div>
+      -->  
+      <div class="w3-content w3-display-container" style="max-width:100%">
+        <img class="mySlides" src="img/1/Estrela do Mar_Espaguete com Camarão ao molho Branco (1)[489].jpg" style="width:100%">
+        <img class="mySlides" src="img/1/Estrela do Mar_Filé de Frango à Parmegiana[490].jpg" style="width:100%">
+        <img class="mySlides" src="img/1/Estrela do Mar capa_jpg[488].jpg" style="width:100%">
+        <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+        </div>
+      </div>
+      
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" w3-white", "");
+        }
+        x[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " w3-white";
+      }
+      </script>
+
+      <script>
+        var myIndex = 0;
+        carousel();
+  
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 9000); // Change image every 2 seconds
+        }
+      </script>
+    
+      <br>
+
+    
+      <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/1/Estrela do Mar_Salada de Alface com Camarão[493].jpg">
+                <img src="img/1/Estrela do Mar_Salada de Alface com Camarão[493].jpg" alt="ALFACE COM CAMARAO" width="600" height="400">
+            </a>
+            <div class="desc">SALADAS <br> ALFACE COM CAMARÃO</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/1/Estrela do Mar_Filé de Frango à Parmegiana[490].jpg">
+                <img src="img/1/Estrela do Mar_Filé de Frango à Parmegiana[490].jpg" alt="FRANGO A PARMEGIANA" width="600" height="400">
+            </a>
+            <div class="desc">PRATOS <br> FRANGO À PARMEGIANA</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="img/3/Tilápia porção.JPG">
+                <img src="img/1/Estrela do Mar_Filé de Frango Grelhado[491].jpg" alt="TILAPIA" width="600" height="400">
+            </a>
+            <div class="desc">PORÇÕES <br> TILÁPIA</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img/3/Tilápia porção.JPG">
+              <img src="img/1/Estrela do Mar_Espaguete com Camarão ao molho Branco (1)[489].jpg" alt="TILAPIA" width="600" height="400">
+          </a>
+          <div class="desc">PORÇÕES <br> TILÁPIA</div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <br>
+  
+
+
+    
+
+
+
+
+
+      <div class="footer">
+        <h1>Venha nos conhecer no Shopping Mandacaru Boulevard!</h1>
+        <img id="imgfooter" src="img/restaurant.jpg" style="width: 60%">
+        <p id="credits">© 2022 Restaurante Estrela do Mar</p>
+      </div>
+
+
+    <!--<div id="bloco1">
+      <div id="textodiv1">Localização e Mídias Sociais </div>
+      <div class="local">
+        <div>Shopping Mandacaru Boulevard</div>
+        <div>Av. Mandacaru 277 - Maringá</div>
+        <div>Tel.: (44) 3032-5100</div>
+      </div>
+      <div class="outro">
+        <div class="li"><a href="https://www.instagram.com/restaurantestreladomar/">Instagram</a></div>
+        <div class="li"><a href="mariliza.souza@hotmail.com">Email</a></div>
+        <div class="li"><a href="https://www.facebook.com/estreladomarmaringa/">Facebook</a></div>
+      </div>  
+    </div>
+
+    <div id="infe" ><p id="barraroxa">@Copyright </p></div>
+    <div class="linha"></div>-->
+         
+
+    <!--
+
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+    <script>
+    function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(51.508742,-0.120850),
+      zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    -->
+          
+
+    </body>
+
+</html>
